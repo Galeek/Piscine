@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Failed" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-09-06 08:44:22Z" end-time="2017-09-06 08:44:57Z" duration="34.853169">
+  <command-line><![CDATA[nunit3-console.exe  C:\Users\User\Documents\Source\Repos\Piscine\DESKTOP\bin\Debug\DESKTOP.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1003" name="DESKTOP.dll" fullname="C:\Users\User\Documents\Source\Repos\Piscine\DESKTOP\bin\Debug\DESKTOP.dll" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-06 08:44:23Z" end-time="2017-09-06 08:44:57Z" duration="34.012761" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.15063.0" platform="Win32NT" cwd="C:\Users\User\Documents\Source\Repos\Piscine\packages\NUnit.ConsoleRunner.3.7.0\tools" machine-name="DESKTOP-G056SB6" user="User" user-domain="DESKTOP-G056SB6" culture="fr-FR" uiculture="fr-FR" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\User\Documents\Source\Repos\Piscine\packages\NUnit.ConsoleRunner.3.7.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12556" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1004" name="DESKTOP" fullname="DESKTOP" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-06 08:44:23Z" end-time="2017-09-06 08:44:57Z" duration="33.990315" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="Launcher" fullname="DESKTOP.Launcher" classname="DESKTOP.Launcher" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-06 08:44:23Z" end-time="2017-09-06 08:44:57Z" duration="33.987086" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1002" name="AndroidOpenning" fullname="DESKTOP.Launcher.AndroidOpenning" classname="DESKTOP.Launcher" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-06 08:44:23Z" end-time="2017-09-06 08:44:57Z" duration="33.783643" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1001" name="Dfgfgfg" fullname="DESKTOP.Launcher.Dfgfgfg" methodname="AndroidOpenning" classname="DESKTOP.Launcher" runstate="Runnable" seed="873441470" result="Failed" label="Error" start-time="2017-09-06 08:44:23Z" end-time="2017-09-06 08:44:57Z" duration="33.774737" asserts="0">
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression h2[class^=post] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'h2[class^=post]' is not a valid XPath expression.
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)]]></message>
+              <stack-trace><![CDATA[   à OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   à OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   à OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(String mechanism, String value)
+   à DESKTOP.Launcher.AndroidOpenning() dans C:\Users\User\Documents\Source\Repos\Piscine\DESKTOP\Launcher.cs:ligne 43]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

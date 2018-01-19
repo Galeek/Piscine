@@ -1,0 +1,37 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+# Dll(s) To Skip
+
+/DESKTOP/bin/Debug
+/CLIENT/bin/Debug
+/ANDROID/bin/Debug
+/IOS/bin/Debug
+/RESSOURCE/bin/Debug
+
+/DESKTOP/bin/Release
+/CLIENT/bin/Release
+/ANDROID/bin/Release
+/IOS/bin/Release
+/RESSOURCE/bin/Release
+
+# ScreenShots To Skip
+
+/DESKTOP/DESKTOPSCR
+/ANDROID/ANDROIDSCR
+/IOS/IOSSCR
+
+# compiler To Skip
+
+/DESKTOP/obj/Debug
+/CLIENT/obj/Debug
+/ANDROID/obj/Debug
+/IOS/obj/Debug
+/RESSOURCE/obj/Debug
+
+/DESKTOP/obj/Release
+/CLIENT/obj/Release
+/ANDROID/obj/Release
+/IOS/obj/Release
+/RESSOURCE/obj/Release

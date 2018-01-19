@@ -1,0 +1,124 @@
+﻿// ONE FULL Object TEST CASE
+{
+  "action": [
+    {
+      "actionName": "Screenshot Accueil",
+      "actionType": "Screenshot",
+      "elementBy": null,
+      "elementPropertyValue": null,
+      "elementValue": null
+    },
+    {
+      "actionName": "Remplir mon numero",
+      "actionType": "SendKey",
+      "elementPropertyType": "Name",
+      "elementPropertyValue": "tel",
+      "elementValue": "0606060606"
+    },
+    {
+      "actionName": "Valider ma saisie",
+      "actionType": "Click",
+      "elementPropertyType": "Id",
+      "elementPropertyValue": "submitTel",
+      "elementValue": null
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "Screenshot",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": null
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "GoToUrl",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": "http://facebook.com"
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "Screenshot",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": null
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "GoToUrl",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": "http://twitter.com"
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "Screenshot",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": null
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "GoToUrl",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": "http://www.testingdigital.com/fr/contact"
+    },
+    {
+      "actionName": "Remplir mon numero",
+      "actionType": "SendKey",
+      "elementPropertyType": "Id",
+      "elementPropertyValue": "appbundle_contact_contact_name",
+      "elementValue": "Xavier"
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "Screenshot",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": null
+    },
+    {
+      "actionName": "Remplir mon numero",
+      "actionType": "SendKey",
+      "elementPropertyType": "Id",
+      "elementPropertyValue": "appbundle_contact_contact_email",
+      "elementValue": "xavier@testingdigital.com"
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "Screenshot",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": null
+    },
+    {
+      "actionName": "Remplir mon numero",
+      "actionType": "SendKey",
+      "elementPropertyType": "Id",
+      "elementPropertyValue": "appbundle_contact_contact_phone",
+      "elementValue": "0606060606"
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "Screenshot",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": null
+    },
+    {
+      "actionName": "Remplir mon numero",
+      "actionType": "SendKey",
+      "elementPropertyType": "Id",
+      "elementPropertyValue": "appbundle_contact_contact_message",
+      "elementValue": "Hello a moi, l'Oh Tomate :)"
+    },
+    {
+      "actionName": "Screen Info",
+      "actionType": "Screenshot",
+      "elementPropertyType": null,
+      "elementPropertyValue": null,
+      "elementValue": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Register" thread-count="2">
+	<test name="test1">
+		<parameter name="Fname" value="Micheng"/>
+		<parameter name="Lname" value="Jean"/>
+		<parameter name="phone" value="0707070707"/>
+		<parameter name="email" value="testemail@email.com"/>
+		<parameter name="password" value="Undeuxtrois4"/>
+		<parameter name="Cpassword" value="Undeuxtrois4"/>
+		
+		<classes>
+			<class name ="test.Test1"></class>
+		</classes>
+	</test>
+</suite>
